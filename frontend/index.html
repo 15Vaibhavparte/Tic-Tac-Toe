@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serverless Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic-Tac-Toe AWS</h1>
+
+        <div id="login-section">
+            <input type="email" id="email" placeholder="Your Email">
+            <input type="text" id="username" placeholder="Your Username">
+            <button onclick="login()">Login</button>
+        </div>
+
+        <div id="dashboard-section" style="display:none;">
+            <h2 id="welcome-text"></h2>
+            
+            <div class="challenge-box">
+                <button onclick="createGame()">Create Room (Get Code)</button>
+                <hr style="margin: 15px 0;">
+                <input type="number" id="join-code" placeholder="Enter 4-Digit Code">
+                <button onclick="joinGame()" style="background: #28a745;">Join Room</button>
+            </div>
+            
+            <h3 id="room-code-display" style="color: #007bff; margin-top: 20px;"></h3>
+            
+            <button onclick="clearGame()" style="background: #dc3545; margin-top: 30px;">Forfeit / Clear Stuck Games</button>
+        </div>
+
+        <div id="game-section" style="display:none;">
+            <h2 id="turn-indicator"></h2>
+            <div class="board" id="board"></div>
+            <button onclick="clearGame()" style="background: #dc3545; margin-top: 20px;">Forfeit Game</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

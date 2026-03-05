@@ -8,6 +8,30 @@ A hands-on exploration of AWS serverless architecture and cloud observability. T
 The goal of this phase was to build a logic-heavy application with zero server management, focusing on event-driven compute and NoSQL data modeling.
 
 ### **Service Breakdown & Setup Steps**
+```mermaid
+graph LR
+    %% Part 2: DevOps (The Builder)
+    subgraph DevOps & Automation
+        GitHub[GitHub Repo] -->|Auto-Triggers| Pipeline[AWS CodePipeline]
+    end
+
+    %% Part 1: Serverless App (The Game)
+    subgraph Serverless Architecture
+        S3[Amazon S3 Frontend] -->|API Call| API[API Gateway]
+        API -->|Routes Request| Lambda[AWS Lambda]
+        Lambda <-->|Game Data| DynamoDB[(Amazon DynamoDB)]
+    end
+
+    %% Part 2: Observability (The Watcher)
+    subgraph Observability
+        Lambda -.->|Logs & Metrics| CloudWatch[Amazon CloudWatch]
+        CloudWatch -.->|Error Alerts| SNS[Amazon SNS]
+    end
+
+    %% How they connect
+    Pipeline ==>|Deploys UI| S3
+    Pipeline ==>|Updates Code| Lambda
+```
 
 #### **1. Amazon S3 (Static Website Hosting)**
 * **Description:** Used to host the frontend HTML, CSS, and JavaScript files globally without a web server.

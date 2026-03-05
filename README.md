@@ -1,4 +1,4 @@
-<img width="1911" height="1069" alt="Screenshot 2026-03-05 201759" src="https://github.com/user-attachments/assets/889c7f10-c4d5-41eb-b0d3-7d2798c39b3d" /># AWS Serverless & Observability Trial: Multiplayer Tic-Tac-Toe ☁️🎮
+# AWS Serverless & Observability Trial: Multiplayer Tic-Tac-Toe ☁️🎮
 
 A hands-on exploration of AWS serverless architecture and cloud observability. This project was built as a technical "trial" to understand how distributed AWS services communicate in a real-time environment.
 

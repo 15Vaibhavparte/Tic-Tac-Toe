@@ -55,6 +55,7 @@ The goal of this phase was to build a logic-heavy application with zero server m
 ---
 Serverless Architecture in Action**
 *A split-screen demonstration of real-time matchmaking, 4-digit room code generation, and synchronized game state.*
+
 https://github.com/user-attachments/assets/95e2d28b-26b6-42b6-b4d0-9ede3edd95fe
 
 
@@ -94,10 +95,11 @@ This phase focuses on maintaining system health and automating the deployment li
 <img width="1911" height="1069" alt="Screenshot 2026-03-05 201759" src="https://github.com/user-attachments/assets/93bf0548-711b-4c84-bb66-1173e5fd3167" />
 <img width="1911" height="1071" alt="Screenshot 2026-03-05 202005" src="https://github.com/user-attachments/assets/7e43851a-8e99-4e18-9bea-4fd1ada51da4" />
 <img width="1917" height="1076" alt="Screenshot 2026-03-05 195321" src="https://github.com/user-attachments/assets/729491f6-0959-4cde-bb89-652f0475bf85" />
-
+---
 CI/CD & Observability in Action**
 *A demonstration of the "Push-to-Live" workflow via AWS CodePipeline and real-time health monitoring in CloudWatch.*
+
 https://github.com/user-attachments/assets/2ed21de2-c526-4139-b5a0-361361bd3736
 
 
----
+

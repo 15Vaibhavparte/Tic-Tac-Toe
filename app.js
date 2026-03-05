@@ -1,4 +1,4 @@
-const API_URL = "https://uqof89i8we.execute-api.ap-south-1.amazonaws.com/dev"; 
+const API_URL = "https://x4ozw9abp3.execute-api.ap-south-1.amazonaws.com/dev"; 
 
 let myEmail = "";
 let currentGame = null;

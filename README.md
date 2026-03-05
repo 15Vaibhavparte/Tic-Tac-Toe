@@ -96,7 +96,8 @@ This phase focuses on maintaining system health and automating the deployment li
 <img width="1911" height="1071" alt="Screenshot 2026-03-05 202005" src="https://github.com/user-attachments/assets/7e43851a-8e99-4e18-9bea-4fd1ada51da4" />
 <img width="1917" height="1076" alt="Screenshot 2026-03-05 195321" src="https://github.com/user-attachments/assets/729491f6-0959-4cde-bb89-652f0475bf85" />
 ---
-CI/CD & Observability in Action**
+
+
 *A demonstration of the "Push-to-Live" workflow via AWS CodePipeline and real-time health monitoring in CloudWatch.*
 
 https://github.com/user-attachments/assets/2ed21de2-c526-4139-b5a0-361361bd3736
